@@ -23,4 +23,52 @@ body {
   display: grid;
   grid-template-areas: 
     'header header header header header header' 
-    'middle middle middle middle middle mi
+    'middle middle middle middle middle middle' 
+    'footer footer footer footer footer footer';
+  height: 100vh; /* Make sure the grid container takes the full height of the viewport */
+} 
+
+.middle {
+  grid-area: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'middle middle middle middle middle middle' 
+      'footer footer footer footer footer footer';
+  }
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
