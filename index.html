@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <title>Thomas Tubinas | Home</title>
 <head>
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=1.0, user-scalable=yes">
-    <!-- Include jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <script> 
-    $(function(){
-        $("#header-section").load("templates/header.html"); 
-    });
-    </script> 
+  <title>Thomas Tubinas | Home</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=1.0, user-scalable=yes">
+  <!-- Include jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script> 
+  $(function(){
+      $("#header-section").load("templates/header.html"); 
+  });
+  </script> 
 </head>
 <body>
-<div id="header-section"></div>
-    <!-- WELCOME -->
-    <div class="heading">Hello!</div>
-    <hr>
-    <p>
-    My name is Thomas Tubinas. I am an student at Arcadia University with fueled by an 
-    unwavering enthusiasm for the field of cybersecurity, actively contributing to the IT 
-    sector while also making waves as a valuable member of the school's swim team.
-    </p>
+  <div class="grid-container">
+    <div class="header" id="header-section">
+      <!-- Header content will be loaded here -->
+    </div>
+    
+    <div class="left" style="background-color:#aaa;"></div>
+    <div class="middle" style="background-color:#bbb;">
+      <div class="heading">Hello!</div>
+      <hr>
+      <p>
+        My name is Thomas Tubinas. I am a student at Arcadia University fueled by an 
+        unwavering enthusiasm for the field of cybersecurity, actively contributing to the IT 
+        sector while also making waves as a valuable member of the school's swim team.
+      </p>
+    </div>  
+    <div class="right" style="background-color:#ccc;"></div>
+    
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </div>
 </body>
 </html>
