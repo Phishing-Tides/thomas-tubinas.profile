@@ -21,16 +21,22 @@ body {
 }
 
 .grid-container {
-  width: 80%; /* Adjust width of the grid container */
-  max-width: 1200px; /* Optional: Limit maximum width */
-  margin: auto; /* Center the grid container horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
 }
 
 .centered-text {
   text-align: center;
   padding: 20px;
   border: 2px solid black;
-  border-radius: 10px; /* Optional: Adds rounded corners */
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .footer {
