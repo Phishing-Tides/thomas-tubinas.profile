@@ -26,6 +26,12 @@
   color: white;
 }
 
+.topnav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .topnav li {
   display: inline-block;
   margin-left: 70px;
