@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-<meta charset="UTF-8">
-<title>Thomas Tubinas | Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Include jQuery library -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <header>
+  <meta charset="UTF-8">
+  <title>Thomas Tubinas | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script> 
+  $(function(){
+      $("#header-section").load("templates/header.html"); 
+  });
+  </script>
   <div class = "container">
-    <h1 class="logo"></h1>
-    
     <nav>
       <ul>
       <li><a class="active" href="/index/">Home</a></li>
