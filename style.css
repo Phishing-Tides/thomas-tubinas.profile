@@ -26,6 +26,14 @@
   color: white;
 }
 
+.topnav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
