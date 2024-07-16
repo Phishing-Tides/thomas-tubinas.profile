@@ -11,6 +11,7 @@ body {
   background: #222 no-repeat;
   background-size: border-box;
   background-position: center;
+  color: white;
 }
 
 .header {
