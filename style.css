@@ -27,6 +27,11 @@ body {
   z-index: 100;
 }
 
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
 div.abs {
   position: absolute;
   top: 80px;
