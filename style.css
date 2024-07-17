@@ -28,8 +28,12 @@ body {
 }
 
 .center {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
-  border: 3px solid green;
+  z-index: 50;
 }
 
 div.abs {
