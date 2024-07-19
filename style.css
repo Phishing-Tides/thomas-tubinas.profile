@@ -43,3 +43,11 @@ div.abs {
   width: 250px;
   height: 100px;
 }
+
+div.pros {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1000px;
+  height: 100px;
+}
