@@ -52,25 +52,25 @@ div.pros {
   height: 100px;
 }
 
-a.link {
+a:link {
   color:white;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a.visted {
+a:visted {
   color:white;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a.hover {
+a:hover {
   color:blue;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a.active {
+a:active {
   color:red;
   background-color: transparent;
   text-decoration: underline;
