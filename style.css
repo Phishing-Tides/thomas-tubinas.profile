@@ -64,10 +64,11 @@ a:visited {
 
 a:hover {
   color:blue;
-  background-color: transparent;
+  background-color: white;
+  transition: 0.5;
 }
 
 a:active {
   color:blue;
-  background-color: transparent;
+  background-color: white;
 }
