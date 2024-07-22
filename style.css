@@ -51,3 +51,27 @@ div.pros {
   width: 1000px;
   height: 100px;
 }
+
+a.link {
+  color:white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.visted {
+  color:white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.hover {
+  color:blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.active {
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
