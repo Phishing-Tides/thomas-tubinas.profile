@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 20;
 }
 
 .center {
@@ -55,23 +55,19 @@ div.pros {
 a:link {
   color:white;
   background-color: transparent;
-  text-decoration: underline;
 }
 
 a:visited {
   color:white;
   background-color: transparent;
-  text-decoration: underline;
 }
 
 a:hover {
   color:blue;
   background-color: transparent;
-  text-decoration: underline;
 }
 
 a:active {
-  color:red;
-  background-color: transparent;
-  text-decoration: underline;
+  color:blue;
+  background-color: black;
 }
