@@ -12,9 +12,6 @@ body {
   background-size: border-box;
   background-position: center;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .header {
@@ -87,4 +84,9 @@ table {
   border-spacing: 30px;
   border-collapse: collapse;
   align-items: center;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
 }
