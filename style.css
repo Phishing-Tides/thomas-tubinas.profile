@@ -82,6 +82,10 @@ td {
 	text-align: center
 }
 
+th, td {
+  padding: 10px;
+}
+
 table {
   top: 20;
   width: 50%;
