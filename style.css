@@ -90,4 +90,5 @@ table {
   width: 50%;
   border-spacing: 30px;
   border-collapse: collapse;
+  align-items: center;
 }
