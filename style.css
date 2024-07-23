@@ -72,3 +72,17 @@ a:active {
   color:blue;
   background-color: black;
 }
+
+table, td, th {
+  border: 1px solid;
+  color: #55d6aa;
+}
+
+td {
+	text-align: center
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
