@@ -45,11 +45,11 @@ div.abs {
 }
 
 div.pros {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  width: 1000px;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 a:link {
