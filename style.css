@@ -87,7 +87,7 @@ th, td {
 }
 
 table {
-  top: 20;
+  top: 80px;
   width: 50%;
   border-spacing: 30px;
   border-collapse: collapse;
