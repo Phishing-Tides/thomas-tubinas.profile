@@ -67,6 +67,11 @@ a:active {
   background-color: rgb(198, 159, 59);
 }
 
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
 table, td, th {
   border: 1px solid;
   color: #55d6aa;
@@ -86,12 +91,4 @@ table {
   border-spacing: 30px;
   border-collapse: collapse;
   align-items: center;
-}
-
-table.center{
-  width: 50%;
-  padding: 10px;
-  margin: auto;
-  border-collapse: collapse;
-  border-spacing: 30px;
 }
