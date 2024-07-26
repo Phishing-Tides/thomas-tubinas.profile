@@ -90,4 +90,6 @@ table {
 
 table.center{
   margin: auto;
+  width: 50%;
+  border-spacing: 30px;
 }
