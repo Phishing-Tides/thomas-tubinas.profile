@@ -87,3 +87,7 @@ table {
   border-collapse: collapse;
   align-items: center;
 }
+
+table.center{
+  margin: auto;
+}
