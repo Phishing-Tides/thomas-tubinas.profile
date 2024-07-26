@@ -89,6 +89,8 @@ table {
 }
 
 table.center{
+  width: 50%;
+  padding: 10px;
   margin: auto;
   border-collapse: collapse;
   border-spacing: 30px;
