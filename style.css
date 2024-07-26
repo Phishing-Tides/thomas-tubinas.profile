@@ -92,3 +92,7 @@ table {
   border-collapse: collapse;
   align-items: center;
 }
+
+.center {
+  top: 80px;
+}
