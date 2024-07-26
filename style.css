@@ -90,5 +90,6 @@ table {
 
 table.center{
   margin: auto;
+  border-collapse: collapse;
   border-spacing: 30px;
 }
