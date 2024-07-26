@@ -70,12 +70,6 @@ a:active {
 .table-container {
   display: flex;
   justify-content: center;
-  position: absolute;
-  align-items: center;
-  top: 80px;
-  left: 0;
-  width: 250px;
-  height: 100px;
 }
 
 table, td, th {
