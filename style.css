@@ -49,22 +49,26 @@ div.abs {
 a:link {
   color:white;
   background-color: transparent;
+  text-decoration: none;
 }
 
 a:visited {
   color:white;
   background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
   color:white;
   background-color: rgb(198, 159, 59);
   transition: 0.5s;
+  text-decoration: none;
 }
 
 a:active {
   color:blue;
   background-color: rgb(198, 159, 59);
+  text-decoration: none;
 }
 
 .table-container {
